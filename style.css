@@ -25,3 +25,12 @@
 .row {
   margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  .fixed-left {
+    display: none;
+  }
+  .scrollable-right {
+    margin-left: 0;
+  }
+}
